@@ -88,39 +88,32 @@ document.addEventListener("DOMContentLoaded", () => {
         year.textContent = new Date().getFullYear();
     }
 
-    // ================================================
-    // SISTEMA DE DESCARGA
-    // ================================================
+// ================================================
+// SISTEMA DE DESCARGA
+// ================================================
 
-    const DOWNLOAD_URL = "https://drive.google.com/file/d/1J76k8QR-DLXY2CJlXE-0byySuyctrVX4/view?usp=sharing";
+const DOWNLOAD_URL =
+    `https://github.com/XFaiderrrr/TierraDeNadieCapI_Launcher/releases/download/v1.0.0/Tierra.de.Nadie.1.0.0.exe`;
 
-    const downloadButton = document.getElementById(
-        "downloadButton"
-    );
+const downloadButton = document.getElementById("downloadButton");
+const downloadNote = document.getElementById("downloadNote");
 
-    const downloadNote = document.getElementById(
-        "downloadNote"
-    );
+if (downloadButton) {
 
-    if (downloadButton && DOWNLOAD_URL.trim()) {
+    downloadButton.href = DOWNLOAD_URL;
 
-        downloadButton.href = DOWNLOAD_URL;
+    downloadButton.target = "_self";
 
-        downloadButton.target = "_blank";
+    downloadButton.removeAttribute("aria-disabled");
 
-        downloadButton.rel = "noopener noreferrer";
+    downloadButton.innerHTML =
+        'DESCARGAR JUEGO <span>↓</span>';
 
-        downloadButton.removeAttribute("aria-disabled");
-
-        downloadButton.innerHTML =
-            'DESCARGAR JUEGO <span>↗</span>';
-
-        if (downloadNote) {
-
-            downloadNote.textContent =
-                "Versión para Windows · Descarga disponible";
-        }
+    if (downloadNote) {
+        downloadNote.textContent =
+            "Versión para Windows · Descarga disponible";
     }
+}
 
     // ================================================
     // BARRA DE PROGRESO
