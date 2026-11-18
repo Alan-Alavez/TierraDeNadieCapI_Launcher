@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ================================================
 
 const DOWNLOAD_URL =
-    `https://github.com/XFaiderrrr/TierraDeNadieCapI_Launcher/releases/download/v1.0.0/Tierra.de.Nadie.1.0.0.exe`;
+    `https://github.com/XFaiderrrr/TierraDeNadieCapI_Launcher/releases/download/v2.0.0/Tierra.de.Nadie.2.0.0.exe`;
 
 const downloadButton = document.getElementById("downloadButton");
 const downloadNote = document.getElementById("downloadNote");
