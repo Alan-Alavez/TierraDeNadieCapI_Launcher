@@ -281,7 +281,7 @@ img {
     inset: 0;
 
     background:
-        url('../assets/images/portada.png')
+        url('../assets/images/banner.png')
         center / cover no-repeat;
 
     opacity: .42;
