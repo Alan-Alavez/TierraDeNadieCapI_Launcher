@@ -2,7 +2,7 @@
 
 Landing page estática para presentar y distribuir **Tierra de Nadie - Capítulo I**.
 
-🌐 **Sitio en línea:** https://alan-alavez.github.io/TierraDeNadieCapI_Launche/
+🌐 **Sitio en línea:** https://alan-alavez.github.io/TierraDeNadieCapI_Launcher/
 👤 **Portafolio:** https://alan-alavez.github.io
 
 ## Tecnologías
